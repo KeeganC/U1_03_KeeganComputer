@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:U1_03_KeeganComputer"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Margin="0,0,192,0">
+    <Grid Margin="0,0,0,0">
         <Image 
             x:Name="imgComPart"
             HorizontalAlignment="Left" 
@@ -21,7 +21,7 @@
             FontSize="20"
             HorizontalAlignment="Center" 
             Height="82" 
-            Margin="289,10,-174,0" 
+            Margin="289,10,10,0" 
             VerticalAlignment="Top" 
             Width="210"
             IsReadOnly="True"/>
@@ -32,7 +32,7 @@
             FontSize="12"
             HorizontalAlignment="Center" 
             Height="82" 
-            Margin="289,92,-174,0" 
+            Margin="289,92,10,0" 
             VerticalAlignment="Top" 
             Width="210"
             IsReadOnly="True"/>
@@ -43,7 +43,7 @@
             FontSize="20"
             HorizontalAlignment="Center" 
             Height="42" 
-            Margin="289,159,-174,0" 
+            Margin="289,143,10,0" 
             VerticalAlignment="Top" 
             Width="210"
             IsReadOnly="True"/>
@@ -106,5 +106,12 @@
                 VerticalAlignment="Top" 
                 Width="43"
                 Click="btnPage7_Click"/>
+        <Label x:Name="lbl"
+               Content="Total computer price = 980.40$" 
+               HorizontalAlignment="Left" 
+               Height="28" 
+               Margin="289,185,-174,0" 
+               VerticalAlignment="Top" 
+               Width="210"/>
     </Grid>
 </Window>
